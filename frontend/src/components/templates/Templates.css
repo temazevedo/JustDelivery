@@ -1,0 +1,54 @@
+/* FOOTER */
+.footer {
+  grid-area: footer;
+  background-color: #DDD;
+  color: #333;
+
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 10px;
+}
+
+/* HEADER */
+.header {
+    grid-area: header;
+    background: linear-gradient(to right, #1e469a, #49a7c1);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-title {
+    font-size: 1.2rem;
+    color: #fff;
+    font-weight: 100;
+
+    flex-grow: 1;
+    text-align:  center;
+}
+
+/* SIDEBAR */
+.side-bar {
+    grid-area: sidebar;
+    background: linear-gradient(to right, #232526, #414345);
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.side-bar-btn {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 150px;
+
+}
+/* CONTENT */
+.content {
+    grid-area: content;
+    background-color: #efefef;
+    padding: 20px;
+}
